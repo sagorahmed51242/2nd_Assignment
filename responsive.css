@@ -1,0 +1,13 @@
+@media screen and (max-width:576px) {
+    .nav_bar{
+        margin:0 30px;
+    }
+    .nav_items{
+        display: none;
+    }
+    .bar{
+        display: block;
+        font-size: 25px;
+        color:white;
+    }
+}
