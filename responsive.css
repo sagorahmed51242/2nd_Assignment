@@ -10,4 +10,65 @@
         font-size: 25px;
         color:white;
     }
+
+    .header_body_wrapper{
+        flex-direction: column;
+        margin: 50px 30px 0px 30px;
+    }
+    .left_content,.right_content{
+        width:100%;
+
+    }
+    .mybtn_1 .club{
+        display: none;
+    }
+    .mybtn_1{
+        padding:16px 45px;
+    }
+
+    .left_content h1{
+        font-size: 36px;
+        padding-right: 80px;
+    }
+    .left_content p{
+        font-size: 16px;
+        padding-right: 50px;
+    }
+    .left_content{
+        margin-bottom: 50px;
+    }
+    .flow_2{
+        top:70px;
+        right: 10px;
+    }
+    .flow_1{
+        left:100px;
+        bottom:260px;
+    }
+
+    .flow_2 h2{
+        font-size: 30px
+    }
+    .flow_2 p{
+        font-size: 10px;
+    }
+
+    .flow_1 h2{
+        font-size: 18px
+    }
+    .flow_1 p{
+        font-size: 12px;
+    }
+    .circle{
+        width:30px;
+        height: 30px;
+    }
+
+
+
+
+
+
+
+
 }
