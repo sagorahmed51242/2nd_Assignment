@@ -96,10 +96,42 @@
     .card{
         padding:0 140px;
         margin:20px auto;
-    
     }
 
     /* habits section responsive design ends here */
 
+
+    /* Extra section design starts from here */
+
+    .extra{
+        flex-direction: column;
+        margin:0 30px;
+    }
+    .extra_left_content,.extra_right_content{
+        width:100%;
+    }
+    .extra_left_content{
+        margin-bottom: 40px;
+        padding-right: 30px;
+    }
+    .extra_left_content h1{
+        font-size: 40px;
+    }
+    .mybtn_3{
+        padding:16px 100px;
+    }
+    .extra_image_container{
+        width:100%;
+        height: 250px;
+    }
+    .extra_image_container> img{
+    width:750px;
+    height: 350px;
+    top:-60px;
+    left:-250px;
+}
+
+
+    /* Extra section design ends here */
 
 }

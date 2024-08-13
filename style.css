@@ -235,3 +235,66 @@ main{
 /* habit section ends here */
 
 
+
+/* Extra section design starts from here */
+
+.extra{
+    padding:30px;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.extra_left_content{
+    width:45%;
+    margin-left: 50px;
+    padding-right: 70px;
+}
+
+.extra_left_content h1{
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 15px;
+
+}
+.extra_left_content p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    margin-bottom: 50px;
+
+}
+
+.mybtn_3{
+    text-decoration: none;
+    color:white;
+    font-size: 18px;
+    background: rgb(230, 83, 60);
+    border:none;
+    margin-right: 15px;
+    padding:14px 40px;
+    border-radius: 40px;
+}
+.extra_image_container{
+    width:420px;
+    height: 350px;
+    overflow: hidden;
+    border-radius: 20px;
+    position: relative;
+}
+.extra_image_container> img{
+    width:1000px;
+    height: 850px;
+    object-fit:cover;
+    object-position: 210% 0;
+    position: absolute;
+    top:-150px
+}
+
+
+
+
+/* Extra section design ends here */
+
