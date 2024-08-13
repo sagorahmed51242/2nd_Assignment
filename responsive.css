@@ -1,4 +1,9 @@
 @media screen and (max-width:576px) {
+
+    /* nav bar responsive design starts from here */
+    header{
+        width:100%;
+    }
     .nav_bar{
         margin:0 30px;
     }
@@ -10,6 +15,11 @@
         font-size: 25px;
         color:white;
     }
+
+    /* nav bar responsive design ends here */
+
+
+    /* header responsive design starts from here */
 
     .header_body_wrapper{
         flex-direction: column;
@@ -27,12 +37,12 @@
     }
 
     .left_content h1{
-        font-size: 36px;
-        padding-right: 80px;
+        font-size: 48px;
+        padding-right: 150px;
     }
     .left_content p{
         font-size: 16px;
-        padding-right: 50px;
+        padding-right: 80px;
     }
     .left_content{
         margin-bottom: 50px;
@@ -42,19 +52,19 @@
         right: 10px;
     }
     .flow_1{
-        left:100px;
+        left:180px;
         bottom:260px;
     }
 
     .flow_2 h2{
-        font-size: 30px
+        font-size: 25px
     }
     .flow_2 p{
         font-size: 10px;
     }
 
     .flow_1 h2{
-        font-size: 18px
+        font-size: 20px
     }
     .flow_1 p{
         font-size: 12px;
@@ -64,11 +74,32 @@
         height: 30px;
     }
 
+    /* header responsive design ends here */
 
 
+    /* Habits section responsive design starts from here */
+    .wrapper{
+        padding-top:5px;
+    }
+    .habits_first_content{
+        width:100%;
+        padding:0 85px;
+    }
+    .habits_first_content h1{
+        font-size: 32px;
+    }
 
+    .habits_second_content{
+        flex-direction: column;
+        gap:0;
+    }
+    .card{
+        padding:0 140px;
+        margin:20px auto;
+    
+    }
 
-
+    /* habits section responsive design ends here */
 
 
 }
