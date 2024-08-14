@@ -129,9 +129,59 @@
     height: 350px;
     top:-60px;
     left:-250px;
-}
 
+    }
 
     /* Extra section design ends here */
+
+
+    /*Exercise section design starts from here */
+
+    .exercise{
+        width:90%;
+        margin:40px 30px;
+    }
+    .exercise_first_content{
+        width:100%;
+        padding-right: 120px;
+    }
+    .exercise_first_content h1{
+        font-size: 40px;
+    }
+    .exercise_second_content{
+        grid-template-rows: repeat(2,170px);
+    }
+    .item_3,.item_6{
+        display: none;
+    }
+    .item_1{
+        grid-column-start: 1;
+        grid-column-end: 6;
+    }
+    .item_2{
+        grid-column-start: 6;
+        grid-column-end: -1;
+    }
+    .item_4{
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+    .item_5{
+        grid-column-start: 5;
+        grid-column-end: -1;
+    }
+    .item_1_shadow p{
+        color:white;
+    }
+    .item_4_shadow p{
+        top:130px;
+        left:20px;
+    }
+
+    /*Exercise section design ends here */
+
+
+
+
 
 }

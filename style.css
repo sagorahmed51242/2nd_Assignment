@@ -245,7 +245,7 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 100px;
+    margin-bottom: 70px;
 }
 .extra_left_content{
     width:45%;
@@ -293,8 +293,121 @@ main{
     top:-150px
 }
 
-
-
-
 /* Extra section design ends here */
+
+/*Exercise section design starts from here */
+
+.exercise{
+    width:100%;
+    height:auto;
+    margin-bottom: 200px;
+}
+.exercise_first_content{
+    width:50%;
+}
+.exercise_first_content h1{
+    color:white;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+.exercise_first_content p{
+    color:rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.exercise_second_content{
+    width:100%;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(2,250px);
+    overflow:hidden;
+}
+.exercise_second_content>.item>img{
+    width:100%;
+    height: 100%;
+}
+.item_1,.item_2,.item_3,
+.item_4,.item_5,.item_6{
+    position: relative;
+}
+.item_1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.item_2{
+    grid-column-start: 4;
+    grid-column-end: 10;
+}
+.item_3{
+    grid-column-start: 10;
+    grid-column-end: -1;
+}
+.item_4{
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+.item_5{
+    grid-column-start: 6;
+    grid-column-end: 9;
+}
+.item_6{
+    grid-column-start: 9;
+    grid-column-end: -1;
+}
+
+
+.item_1_shadow,.item_2_shadow,
+.item_3_shadow,.item_4_shadow,
+.item_5_shadow,.item_6_shadow {
+    width:100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    color:white;
+}
+.item_1_shadow{
+    background-color: rgba(0, 255, 238, 0.405);
+}
+.item_2_shadow{
+    background-color: rgba(161, 14, 19, 0.405);
+}
+.item_3_shadow{
+    background-color: rgba(188, 188, 188, 0.405);
+}
+.item_4_shadow{
+    background-color: rgba(0, 0, 0, 0.55);
+}
+.item_5_shadow{
+    background-color: rgba(81, 255, 0, 0.337);
+}
+.item_6_shadow{
+    background-color: rgba(0, 123, 255, 0.318);
+}
+.item_1_shadow p,
+.item_3_shadow p,
+.item_5_shadow p,
+.item_6_shadow p{
+    position: absolute;
+    bottom: 20px;
+    left:20px;
+}
+.item_1_shadow p{
+    color:black;
+}
+.item_2_shadow p{
+    position: absolute;
+    top: 20px;
+    left:20px;
+}
+.item_4_shadow p{
+    position: absolute;
+    top: 20px;
+    right:20px;
+}
+
+
+/*Exercise section design ends here */
 
