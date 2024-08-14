@@ -214,10 +214,44 @@
         width:47.60%;
     }
 
-
-
     /*bmi calculator section ends here */
 
+    /* meet section design starts from here */
 
+    .meet_container{
+        width:94%;
+        margin:0 30px;
+    }
+    .meet_first_content{
+        width:95%;
+        margin-top: -50px;
+        padding:0 20px;
+    }
+    .meet_first_content h1{
+        font-size: 40px;
+    }
+    .team_container{
+        width:95%;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    /* meet section design ends here */
+
+
+
+    /* Footer design starts from here */
+
+    .footer_container{
+        width:90%;
+        margin:0 30px;
+        flex-direction: column;
+        align-items: flex-start;
+        padding:0;
+    }
+    .underline{
+        width:90%;
+        margin-top: 50px;
+    }
+    /* Footer design ends here */
 
 }

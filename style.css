@@ -512,6 +512,124 @@ input[type="text"],input[type="number"],select{
     font-size: 18px;
     color:white;
     margin-top: 30px;
-
+}
 
 /*BMI Calculator section design ends here */
+
+
+
+/* Meet section design starts from  here */
+
+.meet_container{
+    width:1200px;
+    margin:0 auto;
+    padding: 50px 0px;
+}
+.meet_first_content{
+    width:50%;
+    margin:0 auto;
+    text-align: center;
+}
+.meet_first_content h1{
+    font-size:48px;
+    color:white;
+    font-weight: 900;
+    margin-bottom: 14px;
+}
+.meet_first_content p{
+    font-size: 14px;
+    color:rgba(255, 255, 255, 0.5);
+}
+
+.team_container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,330px);
+    background: rgb(34, 34, 34);
+    margin:50px 0px 0px 0px;
+    gap:25px;
+    border-radius: 20px;
+    padding:25px;
+}
+.member{
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+.member > img{
+    width:100%;
+    height: 100%;
+    filter: brightness(70%);
+}
+.member .text{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+.text h3{
+    color:white;
+}
+.text p{
+    color:rgba(255, 255, 255, 0.5);
+}
+
+/* Meet section design ends  here */
+
+
+
+/*Footer section starts from here */
+
+footer{
+    background: rgb(34, 34, 34);
+}
+.footer_container{
+    width:1200px;
+    margin:0 auto;
+    padding:30px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:50px 0px;
+}
+.footer_left_content{
+    padding:20px 20px 20px 0px;
+}
+.footer_left_content h1{
+    color: rgb(230, 83, 60);
+    font-size: 70px;
+    font-weight: 800;
+    font-style: italic;
+    margin-bottom: 20px;
+
+}
+.footer_left_content p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer_middle_content h2, .footer_right_content h2{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.footer_right_content a, .footer_middle_content a{
+    text-decoration: none;
+    display: block;
+    color:rgba(255, 255, 255, 0.5);
+    margin:10px 0px;
+}
+
+.underline{
+    width:1200px;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin:0 auto;
+    border:none;
+}
+.copyright{
+    text-align: center;
+    padding:20px 0px;
+    color:rgba(255, 255, 255, 0.5);
+}
