@@ -5,6 +5,18 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/*Primary font-size and color */
+h1{
+    font-size: 48px;
+    color:white;
+    font-weight: 900;
+}
+p{
+    font-size: 14px;
+    color:rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+}
 body{
     font-family: "Inter", sans-serif;
 }
@@ -574,6 +586,75 @@ input[type="text"],input[type="number"],select{
 }
 
 /* Meet section design ends  here */
+
+
+/* Motivation section design starts from here */
+
+.motivation_content{
+    background-color: black;
+    width:100%;
+}
+.content_wrapper{
+    width:50%;
+    margin:0 auto;
+    text-align: center;
+    padding:0 40px;
+}
+.content_wrapper h1{
+    font-size: 48px;
+    color:white;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.content_wrapper p{
+    font-size: 14px;
+    color:rgba(255, 255, 255, 0.5);
+    padding-bottom: 40px;
+}
+
+.motivation_section{
+    background-color: black;
+    padding-bottom: 50px;
+}
+.motivation_wrapper{
+    width:1200px;
+    height: 600px;
+    margin:0 auto;
+    overflow: hidden;
+    position: relative;
+    background-color: rgb(34, 34, 34);
+    border-radius: 15px;
+}
+.motivation_wrapper>img{
+    width:95%;
+    height: 90%;
+    margin:30px auto;
+    text-align: center;
+    display: block;
+    border-radius: 15px;
+}
+.speech{
+    position:absolute;
+    top:0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.47);
+    width:100%;
+    height: 100%;
+}
+.speech h1{
+    color:white;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-size: 48px;
+    font-weight: 900;
+}
+.speech span{
+    font-size: 32px;
+    color:rgba(255, 255, 255, 0.5);
+}
+/* Motivation section design ends here */
 
 
 

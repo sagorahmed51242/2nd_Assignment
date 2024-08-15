@@ -1,5 +1,11 @@
 @media screen and (max-width:576px) {
 
+    /*Primary color and font-size */
+    body h1{
+    font-size: 40px;
+    color:white;
+    font-weight: 900;
+    }
     /* nav bar responsive design starts from here */
     header{
         width:100%;
@@ -237,6 +243,36 @@
 
     /* meet section design ends here */
 
+
+    /* Motivation section design starts from here */
+
+
+    .content_wrapper{
+        width: 90%;
+        margin:0 30px;
+    }
+    .content_wrapper h1{
+        font-size: 40px;
+    }
+    .motivation_wrapper{
+        width:90%;
+        height: 300px;
+    }
+    .speech h1{
+        font-size:  32px;
+        top:50%;
+        left:20%;
+        transform: translate(-15%,-40%);
+}
+    .speech span{
+        font-size: 15px;
+    }
+    .motivation_wrapper>img{
+        height:81%;
+        width: 90%;
+    }
+
+    /* Motivation section design ends here */
 
 
     /* Footer design starts from here */
