@@ -1,11 +1,11 @@
 @media screen and (max-width:576px) {
 
-    /*Primary color and font-size */
-    body h1{
+    /*Primary font-size */
+    h1{
     font-size: 40px;
-    color:white;
-    font-weight: 900;
     }
+
+
     /* nav bar responsive design starts from here */
     header{
         width:100%;
@@ -91,9 +91,6 @@
         width:100%;
         padding:0 85px;
     }
-    .habits_first_content h1{
-        font-size: 32px;
-    }
 
     .habits_second_content{
         flex-direction: column;
@@ -120,9 +117,7 @@
         margin-bottom: 40px;
         padding-right: 30px;
     }
-    .extra_left_content h1{
-        font-size: 40px;
-    }
+    
     .mybtn_3{
         padding:16px 100px;
     }
@@ -150,9 +145,6 @@
     .exercise_first_content{
         width:100%;
         padding-right: 120px;
-    }
-    .exercise_first_content h1{
-        font-size: 40px;
     }
     .exercise_second_content{
         grid-template-rows: repeat(2,170px);
@@ -186,6 +178,7 @@
 
     /*Exercise section design ends here */
 
+
     /*bmi calculator section starts from here */
 
     .bmi_calculator{
@@ -193,9 +186,7 @@
         margin:0 30px;
         padding-right: 80px;
     }
-    .bmi_calculator h1{
-        font-size: 35px;
-    }
+
     .calculator_chart{
         width:100%;
         margin:30px 0px;
@@ -233,9 +224,7 @@
         margin-top: -50px;
         padding:0 20px;
     }
-    .meet_first_content h1{
-        font-size: 40px;
-    }
+
     .team_container{
         width:95%;
         grid-template-columns: repeat(1,1fr);
@@ -251,9 +240,7 @@
         width: 90%;
         margin:0 30px;
     }
-    .content_wrapper h1{
-        font-size: 40px;
-    }
+
     .motivation_wrapper{
         width:90%;
         height: 300px;

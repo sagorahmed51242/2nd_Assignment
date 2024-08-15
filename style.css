@@ -13,14 +13,18 @@ h1{
     font-weight: 900;
 }
 p{
-    font-size: 14px;
+    font-size: 15px;
     color:rgba(255, 255, 255, 0.5);
     font-weight: 400;
 }
+
 body{
     font-family: "Inter", sans-serif;
 }
 
+
+
+/*Header starts from here */
 header{
     background: linear-gradient( rgb(17, 17, 17), rgb(37, 37, 37),rgb(4, 4, 4));
 }
@@ -31,6 +35,8 @@ header{
     margin:0 auto;
     padding-top: 50px;
 }
+/*Header starts ends here */
+
 
 
 /* nav bar design starts from here */
@@ -97,9 +103,6 @@ header{
 
 }
 .left_content p{
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 16px;
-    font-weight: 400;
     margin-bottom: 40px;
 
 }
@@ -203,15 +206,7 @@ main{
     text-align: center;
 }
 .habits_first_content h1{
-    color: rgb(255, 255, 255);
-    font-size: 48px;
-    font-weight: 900;
     margin-bottom: 15px;
-}
-.habits_first_content p{
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 14px;
-    font-weight: 400;
 }
 
 .habits_second_content{
@@ -239,8 +234,6 @@ main{
     margin-top: 20px;
 }
 .card p{
-    color:rgba(255, 255, 255, 0.5);
-    font-size: 14px;
     margin-top:5px;
 }
 
@@ -266,15 +259,10 @@ main{
 }
 
 .extra_left_content h1{
-    color: rgb(255, 255, 255);
-    font-size: 48px;
-    font-weight: 900;
     margin-bottom: 15px;
 
 }
 .extra_left_content p{
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 14px;
     margin-bottom: 50px;
 
 }
@@ -318,15 +306,9 @@ main{
     width:50%;
 }
 .exercise_first_content h1{
-    color:white;
-    font-size: 48px;
-    font-weight: 900;
     margin-bottom: 15px;
 }
 .exercise_first_content p{
-    color:rgba(255, 255, 255, 0.5);
-    font-size: 14px;
-    font-weight: 400;
     margin-bottom: 40px;
 }
 .exercise_second_content{
@@ -429,15 +411,9 @@ main{
     margin:0 auto;
 }
 .bmi_calculator h1{
-    font-size: 48px;
-    font-weight: 900;
-    color:white;
     margin-bottom: 15px;
 }
-.bmi_calculator p{
-    font-size: 14px;
-    color:rgba(255, 255, 255, 0.5);
-}
+
 
 
 .calculator_chart{
@@ -492,9 +468,6 @@ main{
     margin-bottom: 15px;
 }
 .chart_right_content p{
-    color:rgba(255, 255, 255, 0.5);
-    font-size: 15px;
-    font-weight: 400;
     margin-bottom: 30px;
 }
 
@@ -543,14 +516,7 @@ input[type="text"],input[type="number"],select{
     text-align: center;
 }
 .meet_first_content h1{
-    font-size:48px;
-    color:white;
-    font-weight: 900;
     margin-bottom: 14px;
-}
-.meet_first_content p{
-    font-size: 14px;
-    color:rgba(255, 255, 255, 0.5);
 }
 
 .team_container{
@@ -581,9 +547,6 @@ input[type="text"],input[type="number"],select{
 .text h3{
     color:white;
 }
-.text p{
-    color:rgba(255, 255, 255, 0.5);
-}
 
 /* Meet section design ends  here */
 
@@ -601,14 +564,9 @@ input[type="text"],input[type="number"],select{
     padding:0 40px;
 }
 .content_wrapper h1{
-    font-size: 48px;
-    color:white;
-    font-weight: 900;
     margin-bottom: 10px;
 }
 .content_wrapper p{
-    font-size: 14px;
-    color:rgba(255, 255, 255, 0.5);
     padding-bottom: 40px;
 }
 
@@ -642,13 +600,10 @@ input[type="text"],input[type="number"],select{
     height: 100%;
 }
 .speech h1{
-    color:white;
     position: absolute;
     top:50%;
     left:50%;
     transform: translate(-50%,-50%);
-    font-size: 48px;
-    font-weight: 900;
 }
 .speech span{
     font-size: 32px;
@@ -682,11 +637,6 @@ footer{
     font-style: italic;
     margin-bottom: 20px;
 
-}
-.footer_left_content p{
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 14px;
-    font-weight: 400;
 }
 
 .footer_middle_content h2, .footer_right_content h2{
