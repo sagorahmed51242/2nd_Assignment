@@ -212,7 +212,7 @@ main{
 .habits_second_content{
     display: flex;
     color:white;
-    margin: 50px 0px;
+    margin-top: 40px;
     gap: 40px;
 }
 
